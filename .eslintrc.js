@@ -52,5 +52,7 @@ module.exports = {
       'no-alert': 'off',
       'no-underscore-dangle':'off',
       'func-names':'off',
+      'max-len': 'off',
+      'comma-dangle': 'off'
     }
   }
