@@ -2,8 +2,8 @@
   <div>
     <input type="text" class="input" placeholder="添加事项" v-model="todo" @keyup.enter="addTodo">
     <button type="button" name="button" @click="addTodo">
-          添加
-      </button>
+      添加
+    </button>
   </div>
 </template>
 
