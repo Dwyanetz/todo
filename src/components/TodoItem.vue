@@ -24,11 +24,13 @@ export default {
       this.$emit('changeStatus', index);
     },
     del(index) {
-      const sure = window.confirm('确认删除吗？');
-      if (sure) {
+      if (this.sure()) {
         this.$emit('delStatus', index);
       }
     },
+    sure() {
+      return window.confirm('确认删除吗？');
+    }
   },
 };
 </script>
